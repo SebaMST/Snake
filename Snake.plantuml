@@ -1,0 +1,452 @@
+@startuml
+
+title __SNAKE's Class Diagram__\n
+
+  namespace  {
+    namespace ame {
+      namespace GUI {
+        class Game.GUI.GameUI {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace GUI {
+        class Game.GUI.ImageLoader {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Config {
+          class Game.Gameplay.Config.GameplayConfig {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Apple {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Berry {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Coords {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          abstract class Game.Gameplay.Entities.Food {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.FruitOfLife {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Lemon {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Mushroom {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Obstacle {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.SnakeBody {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.SnakeHead {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          abstract class Game.Gameplay.Entities.TiledEntity {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Entities {
+          class Game.Gameplay.Entities.Watermelon {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Exceptions {
+          class Game.Gameplay.Exceptions.Exception_GameCompleted {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Exceptions {
+          class Game.Gameplay.Exceptions.Exception_LevelCompleted {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Exceptions {
+          class Game.Gameplay.Exceptions.Exception_SnakeDead {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Factory {
+          class Game.Gameplay.Factory.FoodFactory {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Factory {
+          class Game.Gameplay.Factory.Timer_SnakeGameFactory {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        abstract class Game.Gameplay.Level {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Level1 {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Level2 {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Level3 {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Level4 {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Level5 {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        class Game.Gameplay.Map {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Timers {
+          class Game.Gameplay.Timers.Timer_LevelDeadline {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Timers {
+          class Game.Gameplay.Timers.Timer_RespawnFood {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Timers {
+          class Game.Gameplay.Timers.Timer_RespawnObstacles {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      namespace Gameplay {
+        namespace Timers {
+          abstract class Game.Gameplay.Timers.Timer_SnakeGame {
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace ame {
+      class Game.SnakeGame {
+      }
+    }
+  }
+  
+
+  namespace  {
+    class LevelKeyListener {
+    }
+  }
+  
+
+  namespace  {
+    class aLevel1 {
+    }
+  }
+  
+
+  namespace  {
+    class aLevel2 {
+    }
+  }
+  
+
+  namespace  {
+    class aLevel3 {
+    }
+  }
+  
+
+  namespace  {
+    class aLevel4 {
+    }
+  }
+  
+
+  namespace  {
+    class aLevel5 {
+    }
+  }
+  
+
+  namespace  {
+    class aSnake {
+    }
+  }
+  
+
+  Game.Gameplay.Entities.Apple -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Entities.Berry -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Entities.Food -up-|> Game.Gameplay.Entities.TiledEntity
+  Game.Gameplay.Entities.FruitOfLife -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Entities.Lemon -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Entities.Mushroom -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Entities.Obstacle -up-|> Game.Gameplay.Entities.TiledEntity
+  Game.Gameplay.Entities.SnakeBody -up-|> Game.Gameplay.Entities.TiledEntity
+  Game.Gameplay.Entities.SnakeHead -up-|> Game.Gameplay.Entities.SnakeBody
+  Game.Gameplay.Entities.Watermelon -up-|> Game.Gameplay.Entities.Food
+  Game.Gameplay.Level o-- Game.Gameplay.Config.GameplayConfig : gameplayConfig
+  Game.Gameplay.Level o-- Game.Gameplay.Map : map
+  Game.Gameplay.Level1 -up-|> Game.Gameplay.Level
+  Game.Gameplay.Level2 -up-|> Game.Gameplay.Level
+  Game.Gameplay.Level3 -up-|> Game.Gameplay.Level
+  Game.Gameplay.Level4 -up-|> Game.Gameplay.Level
+  Game.Gameplay.Level5 -up-|> Game.Gameplay.Level
+  Game.Gameplay.Timers.Timer_LevelDeadline -up-|> Game.Gameplay.Timers.Timer_SnakeGame
+  Game.Gameplay.Timers.Timer_RespawnFood -up-|> Game.Gameplay.Timers.Timer_SnakeGame
+  Game.Gameplay.Timers.Timer_RespawnObstacles -up-|> Game.Gameplay.Timers.Timer_SnakeGame
+  Game.Gameplay.Timers.Timer_SnakeGame -up-|> javax.swing.Timer
+  LevelKeyListener .up.|> KeyListener
+  aLevel1 .up.|> KeyListener
+  aLevel1 .up.|> Runnable
+  aLevel2 .up.|> KeyListener
+  aLevel2 .up.|> Runnable
+  aLevel3 .up.|> KeyListener
+  aLevel3 .up.|> Runnable
+  aLevel4 .up.|> KeyListener
+  aLevel4 .up.|> Runnable
+  aLevel5 .up.|> KeyListener
+  aLevel5 .up.|> Runnable
+  aSnake .up.|> KeyListener
+  aSnake .up.|> Runnable
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
